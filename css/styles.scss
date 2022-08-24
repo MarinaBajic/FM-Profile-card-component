@@ -36,31 +36,27 @@ h3 {
 }
 
 
-$main-width: 350px;
-$mian-border: 0.8em;
+$main-width: 330px;
+$main-border: 0.8em;
 
 main {
     background: white;
     width: $main-width;
-    border-radius: $mian-border;
-
-    .bg {
-        width: 100%;
-        border-radius: $mian-border $mian-border 0 0;
-    }
+    border-radius: $main-border;
+    background-image: url(../images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
 
     header {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 3em 0 1.5em;
+        padding: 5.5em 0 1.5em;
 
-        position: relative;
+        // position: relative;
+        // top: 2em;
 
         .victor {
-            position: absolute;
-            top: -3.5em;
             border-radius: 50%;
             border: .35em solid white;
         }
