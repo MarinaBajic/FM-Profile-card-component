@@ -9,9 +9,13 @@ $dark-gray: hsl(0, 0%, 90%);
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Kumbh Sans', sans-serif;
     background: $dark-cyan;
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right 45vw bottom 45vh, 45vw 45vh;
 
     height: 100vh;
     display: flex;
@@ -19,28 +23,14 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1em;
-
-    .bg-top, .bg-bottom {
-        position: absolute;
-        // z-index: -1;
-        // height: 50vh;
-        // width: 50vw;
-    }
-
-    .bg-top {
-        top: 0px;
-        left: 0;
-    }
-
-    .bg-bottom {
-        right: 0;
-        bottom: 0;
-    }
 }
+
 p {
     color: $dark-gray-blue;
 }
-h2, h3 {
+
+h2,
+h3 {
     color: $dark-blue;
     font-size: 1rem;
 }
@@ -50,7 +40,6 @@ $main-width: 350px;
 $mian-border: 0.8em;
 
 main {
-    display: none;
     background: white;
     width: $main-width;
     border-radius: $mian-border;

@@ -7,6 +7,9 @@
 body {
   font-family: "Kumbh Sans", sans-serif;
   background: hsl(185deg, 75%, 39%);
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 45vw bottom 45vh, 45vw 45vh;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,29 +17,18 @@ body {
   align-items: center;
   gap: 1em;
 }
-body .bg-top, body .bg-bottom {
-  position: absolute;
-}
-body .bg-top {
-  top: 0px;
-  left: 0;
-}
-body .bg-bottom {
-  right: 0;
-  bottom: 0;
-}
 
 p {
   color: hsl(227deg, 10%, 46%);
 }
 
-h2, h3 {
+h2,
+h3 {
   color: hsl(229deg, 23%, 23%);
   font-size: 1rem;
 }
 
 main {
-  display: none;
   background: white;
   width: 350px;
   border-radius: 0.8em;
