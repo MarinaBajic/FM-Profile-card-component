@@ -9,7 +9,7 @@ body {
   background: hsl(185deg, 75%, 39%);
   background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
-  background-position: right 45vw bottom 45vh, 45vw 45vh;
+  background-position: right 40vw bottom 45vh, 40vw 45vh;
   height: 100vh;
   display: flex;
   flex-direction: column;

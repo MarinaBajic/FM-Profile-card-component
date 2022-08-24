@@ -15,7 +15,7 @@ body {
     background: $dark-cyan;
     background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
-    background-position: right 45vw bottom 45vh, 45vw 45vh;
+    background-position: right 40vw bottom 45vh, 40vw 45vh;
 
     height: 100vh;
     display: flex;
@@ -52,9 +52,6 @@ main {
         flex-direction: column;
         align-items: center;
         padding: 5.5em 0 1.5em;
-
-        // position: relative;
-        // top: 2em;
 
         .victor {
             border-radius: 50%;
